@@ -331,7 +331,25 @@ a {
         position: static;
     }
 
-    /* need code here to make each list item get its own line */
+    #nav1 {
+        width: 100%;
+        margin: 0;
+    }
+
+    #contact {
+        width: 100%;
+        text-align: center;
+    }
+
+    #portfolio {
+        width: 100%;
+        text-align: center;
+    }
+
+    #index {
+        width: 100%;
+        text-align: center;
+    }
 
     .content {
         width: 600px;
@@ -356,3 +374,26 @@ a {
     .image-banner1, .image-banner2, .image-banner3, .image-banner4, .image-banner5 {
         height: 40px;
     }
+
+    .image-banner1 {
+        top: 110px;
+    }
+
+    .image-banner2 {
+        top: 240px;
+    }
+
+    .image-banner3 {
+        top: 370px;
+    }
+
+    .image-banner4 {
+        top: 500px;
+    }
+
+    .image-banner5 {
+        top: 630px;
+    }   
+
+
+    /* need code to get the banner p tags to show within the banner divs */
