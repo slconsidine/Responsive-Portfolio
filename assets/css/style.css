@@ -334,6 +334,7 @@ a {
     #nav1 {
         width: 100%;
         margin: 0;
+        text-align: center;
     }
 
     #contact {
@@ -364,11 +365,13 @@ a {
         width: 400px;
         position: static;
         display: block;
+        padding-left: 60px;
     }
 
     .image1, .image2, .image3, .image4, .image5 {
         position: static;
         display: block;
+        margin: auto;
     }
 
     .image-banner1, .image-banner2, .image-banner3, .image-banner4, .image-banner5 {
