@@ -368,7 +368,7 @@ a {
         padding-left: 60px;
     }
 
-    .image1, .image2, .image3, .image4, .image5 {
+    .image {
         position: static;
         display: block;
         margin: auto;
@@ -396,7 +396,36 @@ a {
 
     .image-banner5 {
         top: 630px;
-    }   
+    }
 
+    #text1 {
+        position: relative;
+        bottom: 180px;
+        z-index: 2;
+    }
+
+    #text2 {
+        position: relative;
+        bottom: 305px;
+        z-index: 2;
+    }
+
+    #text3 {
+        position: relative;
+        bottom: 435px;
+        z-index: 2;
+    }
+
+    #text4 {
+        position: relative;
+        bottom: 560px;
+        z-index: 2;
+    }
+
+    #text5 {
+        position: relative;
+        bottom: 690px;
+        z-index: 2;
+    }
 
     /* need code to get the banner p tags to show within the banner divs */
